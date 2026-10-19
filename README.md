@@ -38,20 +38,6 @@ O projeto não requer instalação de dependências nem processo de build.
    git clone <URL_DO_REPOSITORIO>
    ```
 
-2. Entre na pasta do projeto:
-
-   ```bash
-   cd <PASTA_DO_PROJETO>
-   ```
-
-3. Abra `index.html` no navegador. Para uma experiência mais consistente, sirva os arquivos por um servidor local, por exemplo:
-
-   ```bash
-   python -m http.server 8000
-   ```
-
-4. Acesse [http://localhost:8000](http://localhost:8000).
-
 Também é possível abrir a pasta no Visual Studio Code e usar uma extensão de servidor local, como o Live Server.
 
 ## Estrutura do projeto
@@ -71,15 +57,6 @@ Também é possível abrir a pasta no Visual Studio Code e usar uma extensão de
 ├── DESIGN.md         # Tokens e diretrizes visuais
 └── index.html        # Documento principal
 ```
-
-## Publicação no GitHub Pages
-
-1. Envie os arquivos do projeto para um repositório no GitHub.
-2. No repositório, acesse **Settings → Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**.
-4. Escolha a branch desejada e a pasta `/ (root)`, depois salve.
-
-Como o site é estático e o arquivo `index.html` está na raiz, não é necessário configurar um comando de build.
 
 ## Créditos e observações
 
