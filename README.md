@@ -35,7 +35,7 @@ O projeto não requer instalação de dependências nem processo de build.
 1. Clone o repositório:
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   https://github.com/MatheusEdson2/super-mario-galaxy.git
    ```
 
 Também é possível abrir a pasta no Visual Studio Code e usar uma extensão de servidor local, como o Live Server.
